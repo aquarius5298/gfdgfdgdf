@@ -1,0 +1,89 @@
+body{
+    height: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1400px;}
+    
+* {
+    box-sizing: border-box;
+}
+
+.HoTro{
+    float: left;
+    padding-left: 3cm;
+    padding-right: 2cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    color: white;
+    background-color: black;
+    position: relative;
+    list-style-type: none;
+}
+.list-item{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    z-index: 10;
+    list-style-type: none;
+    
+}
+.item-menu1{
+    width: 250px;
+    padding: 10px;
+}
+.HoTro:hover .list-item {
+    display: table-column;
+ 
+}
+
+.list-item2{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    list-style-type: none;
+}
+.item-menu1:hover .list-item2{
+    display: table ;
+}
+.item-menu2{
+    padding: 10px;
+}
+.anh-bia{
+    padding-left: 40px;
+    margin: auto;
+    
+}
+.product{
+    float: left;
+    padding: 10px 10px 0px 40px;
+}
+.anh-sp .product img{
+    transition: all 1s ease ;
+}
+.anh-sp:hover .product img{
+    opacity: 0.5;
+}
+footer{
+    background-color: black;
+    display: block;
+}
+.help-item{
+    float: left;
+    padding-left: 1cm;
+    padding-right: 2cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    color: white;
+    position: relative;
+    list-style-type: none;   
+}
+.help-list2{
+    padding: 30px 0px 0px 0px;
+    list-style-type: square;
+    
+}
+.help-item2{
+    padding: 5px;
+}
